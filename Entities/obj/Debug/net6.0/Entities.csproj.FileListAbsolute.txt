@@ -1,0 +1,12 @@
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\bin\Debug\net6.0\Entities.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\bin\Debug\net6.0\Entities.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\ref\Entities.dll

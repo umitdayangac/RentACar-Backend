@@ -1,0 +1,17 @@
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\Business.deps.json
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\Business.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\Business.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\DataAccess.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\Entities.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\DataAccess.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\bin\Debug\net6.0\Entities.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\refint\Business.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\Business.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Business\obj\Debug\net6.0\ref\Business.dll
