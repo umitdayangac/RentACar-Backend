@@ -10,3 +10,6 @@ D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.d
 D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\refint\Entities.dll
 D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.pdb
 D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\ref\Entities.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\bin\Debug\net6.0\Core.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\bin\Debug\net6.0\Core.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete

@@ -1,12 +1,10 @@
-﻿using Entities.Concrete;
+﻿using Core.DataAccess.Abstract;
+using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Abstract;
 
-public interface ICarDal
+public interface ICarDal : IEntityRepository<Car>
 {
-    List<Car> GetAll();
-    Car Get(int id);
-    void Add(Car car);
-    void Update(Car car);
-    void Delete(Car car);
+    List<CarDetailDto> GetDetailDto();
 }

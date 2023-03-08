@@ -13,3 +13,7 @@ D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\obj\Debug\net6.0\DataAcce
 D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\bin\Debug\net6.0\Core.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\bin\Debug\net6.0\Core.pdb
+D:\Csharp\Learning\Attempt\RentACar-Backend\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache

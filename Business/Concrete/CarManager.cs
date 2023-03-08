@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Concrete;
 
@@ -20,21 +21,26 @@ public class CarManager  :ICarService
 
     public Car GetById(int id)
     {
-        throw new NotImplementedException();
+        return _carDal.Get(x => x.Id == id);
     }
 
     public void Add(Car car)
     {
-        throw new NotImplementedException();
+        _carDal.Add(car);
     }
 
     public void Update(Car car)
     {
-        throw new NotImplementedException();
+        _carDal.Update(car);
     }
 
     public void Delete(Car car)
     {
-        throw new NotImplementedException();
+        _carDal.Delete(car);
+    }
+
+    public List<CarDetailDto> GetDetailDto()
+    {
+        return _carDal.GetDetailDto();
     }
 }

@@ -1,5 +1,7 @@
-﻿using DataAccess.Abstract;
+﻿using System.Linq.Expressions;
+using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace DataAccess.Concrete.InMemory;
 
@@ -28,6 +30,16 @@ public class InMemoryCarDal : ICarDal
         return _cars.SingleOrDefault(c => c.Id == id)!;
     }
 
+    public List<Car> GetAll(Expression<Func<Car, bool>>? filter = null)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Car Get(Expression<Func<Car, bool>> filter)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Add(Car car)
     {
         _cars.Add(car);
@@ -47,5 +59,10 @@ public class InMemoryCarDal : ICarDal
     {
         var deleteTo = _cars.SingleOrDefault(c => c.Id == car.Id)!;
         _cars.Remove(deleteTo);
+    }
+
+    public List<CarDetailDto> GetDetailDto()
+    {
+        throw new NotImplementedException();
     }
 }
