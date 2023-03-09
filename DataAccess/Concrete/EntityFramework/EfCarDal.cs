@@ -10,7 +10,7 @@ public class EfCarDal:EntityRepositoryBase<Car,ContextDb>,ICarDal
     public List<CarDetailDto> GetDetailDto()
     {
         using var context = new ContextDb();
-        var result = from car in context.Cars
+        var  result = from car in context.Cars
             join brand in context.Brands on car.BrandId equals brand.Id
             join color in context.Colors on car.ColorId equals color.Id
             select new CarDetailDto()

@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -14,33 +16,36 @@ public class CarManager  :ICarService
         _carDal = carDal;
     }
     
-    public List<Car> GetAll()
+    public IDataResult<List<Car>> GetAll()
     {
-         return _carDal.GetAll();
+         return new SuccessDataResult<List<Car>>(_carDal.GetAll());
     }
 
-    public Car GetById(int id)
+    public IDataResult<Car> GetById(int id)
     {
-        return _carDal.Get(x => x.Id == id);
+        return new SuccessDataResult<Car>(_carDal.Get(x => x.Id == id));
     }
 
-    public void Add(Car car)
+    public IResult Add(Car car)
     {
         _carDal.Add(car);
+        return new SuccessResult();
     }
 
-    public void Update(Car car)
+    public IResult Update(Car car)
     {
         _carDal.Update(car);
+        return new SuccessResult();
     }
 
-    public void Delete(Car car)
+    public IResult Delete(Car car)
     {
         _carDal.Delete(car);
+        return new SuccessResult();
     }
 
-    public List<CarDetailDto> GetDetailDto()
+    public IDataResult<List<CarDetailDto>> GetDetailDto()
     {
-        return _carDal.GetDetailDto();
+        return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetDetailDto());
     }
 }
