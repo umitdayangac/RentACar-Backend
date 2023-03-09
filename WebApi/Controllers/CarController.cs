@@ -9,17 +9,18 @@ namespace WebApi.Controllers;
 [ApiController]
 public class CarController : ControllerBase
 {
-    private CarManager _carManager;
+    private ICarService _carService;
 
-    public CarController()
+
+    public CarController(ICarService carService)
     {
-        _carManager = new CarManager(new EfCarDal());
+        _carService = carService;
     }
 
     [HttpGet("getall")]
     public IActionResult GetAll()
     {
-        var result = _carManager.GetAll();
+        var result =  _carService.GetAll();
         if (result.Success)
         {
             return Ok(result);
@@ -31,7 +32,7 @@ public class CarController : ControllerBase
     [HttpGet("getcardetail")]
     public IActionResult GetCarDetail()
     {
-        var result = _carManager.GetDetailDto();
+        var result =  _carService.GetDetailDto();
         if (result.Success)
         {
             return Ok(result);

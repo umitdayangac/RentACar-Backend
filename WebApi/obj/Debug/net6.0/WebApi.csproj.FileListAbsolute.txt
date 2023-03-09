@@ -69,3 +69,7 @@ D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\obj\Debug\net6.0\refint\WebAp
 D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\obj\Debug\net6.0\WebApi.pdb
 D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
 D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\obj\Debug\net6.0\ref\WebApi.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\bin\Debug\net6.0\Autofac.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\bin\Debug\net6.0\Autofac.Extras.DynamicProxy.dll
+D:\Csharp\Learning\Attempt\RentACar-Backend\WebApi\bin\Debug\net6.0\Castle.Core.dll
